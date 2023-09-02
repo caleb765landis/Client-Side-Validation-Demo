@@ -1,0 +1,342 @@
+/**************************************
+ TITLE: finalRelease.css
+ AUTHOR: Caleb Landis (CL)
+ CREATE DATE: 4/27/2022
+ PURPOSE: Provide colors and dimensions for finalRelease.html
+ LAST MODIFIED ON: 4/27/2022
+ LAST MODIFIED BY: Caleb Landis (CL)
+ Modification History:
+ 27 April 2022: Original Build (CL)
+ ***************************************/
+
+*{
+	margin: 0 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* id for navbar ul */
+#navbar {
+  list-style-type: none;
+  padding: 0 16px;
+  overflow: hidden;
+  background-color: #404E4F; /* Charcoal */
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+/* make rest of navbar li elements float left */
+.navbarli {
+  float: right;
+}
+
+/* class for rest of navbar li a elements */
+.navbarLinkAnchor {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to Deep Space Sparkle on hover */
+.navbarLinkAnchor:hover {
+  background-color: #506162; /* Deep Space Sparkle */
+}
+
+.active {
+  background-color: #FEF085; /* Yellow Crayola */
+}
+
+header {
+  background-color: #FEF085; /* Yellow Crayola */
+	color: #222222;
+  height: 96vh;
+	text-align: center;
+}
+
+#centerHeaderText {
+  padding: 25vh 0;
+}
+
+body{
+  background-color: #404E4F; /* Charcoal */
+  color: white;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+footer, footer a {
+  background-color: #506162; /* Deep Space Sparkle */
+  color: white;
+  height: 40px;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.sectionTitles {
+  font-size: 45px;
+}
+
+#about {
+	text-align: center;
+  height: 70vh;
+  width: 100%;
+  padding: 15vh 0;
+}
+
+#aboutContent {
+	margin: auto;
+  height: 458px;
+  width: 987px;
+  padding: 15px;
+  border: 2px solid white;
+}
+
+#photoSection {
+	float: left;
+	margin-right: 15px;
+}
+
+#descriptionSection {
+	height: 458px;
+	width: 315px;
+	text-align: left;
+	float: left;
+	margin-right: 15px;
+	border-right: 2px solid white;
+}
+
+#experienceSection {
+	width: 315px;
+	text-align: left;
+	float: left;
+}
+
+#skills {
+  background-color: #E6E6E6; /* Platinum */
+	color: #222222;
+  height: 60vh;
+  width: 100%;
+	text-align: center;
+	padding: 20vh 0;
+}
+
+#accordion {
+	width: 688px;
+	margin: auto;
+	text-align: left;
+}
+
+#projects {
+  background-color: #506162; /* Deep Space Sparkle */
+  color: white;
+  height: 60vh;
+  width: 100%;
+	text-align: center;
+  padding: 20vh 0;
+}
+
+#tabs {
+  width: 760px;
+	margin: auto;
+}
+
+#contact {
+  background-color: #222222;
+  min-height: 1100px;
+  width: 100%;
+	text-align: center;
+  padding: 10vh 0;
+}
+
+#contactForm {
+  background-color: #404E4F; /* Charcoal */
+	width: 688px;
+	margin: 15px auto;
+	box-shadow: 0 2px 15px #EEE;
+	min-height: 1080px;
+	padding: 30px;
+	border-radius: 10px;
+}
+
+.textInputs {
+  height: 28px;
+  width: 152px;
+	margin-right: 8px;
+	margin-bottom: 3px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+#email {
+  height: 28px;
+  width: 331px;
+	margin-right: 8px;
+	margin-bottom: 3px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+#primaryLanguage {
+  height: 28px;
+  width: 331px;
+	margin-right: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+#message {
+  width: 406px;
+	margin-right: 8px;
+  padding-left: 8px;
+  font-size: 16px;
+}
+
+hr {
+  margin: 30px 0;
+	width: 685px;
+}
+
+#reset {
+  background-color: white;
+  color: #222222;
+}
+
+#toTop {
+	text-align: center;
+	margin: auto;
+}
+
+
+
+/* social media links */
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social {
+  position: fixed;
+  top: 80px;
+}
+.social ul {
+  padding: 0px;
+  -webkit-transform: translate(-270px, 0);
+  -moz-transform: translate(-270px, 0);
+  -ms-transform: translate(-270px, 0);
+  -o-transform: translate(-270px, 0);
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  -webkit-border-radius: 0 30px 30px 0;
+  -moz-border-radius: 0 30px 30px 0;
+  border-radius: 0 30px 30px 0;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li:hover {
+  -webkit-transform: translate(75px, 0);
+  -moz-transform: translate(75px, 0);
+  -ms-transform: translate(75px, 0);
+  -o-transform: translate(75px, 0);
+  transform: translate(75px, 0);
+  background: rgba(255, 255, 255, 0.4);
+}
+.social ul li:hover a {
+  color: #000;
+}
+.social ul li:hover i {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.36);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
+
+/* jquery ui */
+.demoHeaders {
+  margin-top: 2em;
+}
+#dialog-link {
+  padding: .4em 1em .4em 20px;
+  text-decoration: none;
+  position: relative;
+}
+#dialog-link span.ui-icon {
+  margin: 0 5px 0 0;
+  position: absolute;
+  left: .2em;
+  top: 50%;
+  margin-top: -8px;
+}
+#icons {
+  margin: 0;
+  padding: 0;
+}
+#icons li {
+  margin: 2px;
+  position: relative;
+  padding: 4px 0;
+  cursor: pointer;
+  float: left;
+  list-style: none;
+}
+#icons span.ui-icon {
+  float: left;
+  margin: 0 4px;
+}
+.fakewindowcontain .ui-widget-overlay {
+  position: absolute;
+}
+select {
+  width: 200px;
+}
+
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+*/

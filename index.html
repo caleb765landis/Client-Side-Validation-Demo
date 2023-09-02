@@ -1,0 +1,275 @@
+<!doctype html>
+
+<!--
+ TITLE: index.html
+ AUTHOR: Caleb Landis (CL)
+ CREATE DATE: 4/27/2022
+ PURPOSE: Final Release for CSCI N341 Final Project
+ LAST MODIFIED ON: 4/29/2022
+ LAST MODIFIED BY: Caleb Landis (CL)
+ Modification History:
+ 27 April 2022: Original Build (CL)
+ 29 Apr 2022: Final Release (CL)
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+
+	<!-- This <title> displays in the page tab -->
+	<title>Final Release</title>
+
+	<!-- This will link to CSS stylesheet for formatting. -->
+  <link rel="stylesheet" href="finalRelease.css">
+
+  <!-- CSS to define theme colors -->
+  <link href="theme/jquery-ui.css" rel="stylesheet">
+
+	<!-- social media link css -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,200" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <!-- navigation bar -->
+  <ul id="navbar">
+    <li class="navbarli" style="float:left;"><a href="#top" class="navbarLinkAnchor" style="padding: 9px 16px;">Caleb<br>Landis</a></li>
+    <li class="navbarli"><a href="#contact" class="navbarLinkAnchor">Contact Me</a></li>
+		<li class="navbarli"><a href="#projects" class="navbarLinkAnchor">Projects</a></li>
+		<li class="navbarli"><a href="#skills" class="navbarLinkAnchor">Skills</a></li>
+		<li class="navbarli"><a href="#about" class="navbarLinkAnchor">About</a></li>
+		<li class="navbarli"><a href="#top" class="navbarLinkAnchor">Home</a></li>
+  </ul>
+
+	<!-- social links -->
+	<nav class="social">
+		<ul>
+			<li><a href="https://twitter.com/caleb765landis">Twitter <i class="fa fa-twitter"></i></a></li>
+			<li><a href="https://github.com/caleb765landis">Github <i class="fa fa-github"></i></a></li>
+			<li><a href="mailto:caleb765landis@gmail.com">Email <i class="fa fa-inbox"></i></a></li>
+		</ul>
+	</nav>
+
+  <!-- home -->
+  <header>
+    <div id="centerHeaderText">
+      <h1>Hello! My name is</h1>
+      <h1 style="font-size: 80px;">Caleb Landis.</h1>
+      <h3>Welcome to my portfolio.</h3><br><br>
+      <button id="headerButton">View my work <span class="ui-icon ui-icon-arrow-1-e"></span></button>
+    </div>
+  </header>
+
+	<!-- rest of portfolio -->
+	<div id="main">
+		<!-- about section -->
+	  <div id="about">
+    	<h1 class="sectionTitles"><u>ABOUT</u></h1>
+			<br><br>
+
+			<!-- about content -->
+			<div id="aboutContent">
+				<!-- photo section -->
+				<div id="photoSection">
+					<div style="height: 400px; width: 300px; border: 5px solid white;">
+						<img src="theme/images/portfolioPhoto.jpeg" alt="Portfolio Photo" height="400" width="300">
+					</div><br>
+					<h3>
+						Caleb Landis<br>
+						Sophomore at IUPUI<br>
+					</h3>
+				</div> <!-- end of photo section -->
+
+				<!-- description about me -->
+				<div id="descriptionSection">
+					<h3 style="padding-right: 15px;">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+					</h3>
+				</div> <!-- end of description section -->
+
+				<!-- work experience section -->
+				<div id="experienceSection">
+					<h1 style="text-align:center;">Work Experience</h1>
+					<br><br>
+
+					<h2>Lorem Ipsum Dolor Sit</h2>
+					<h3>2019-2020</h3>
+					<hr style="width: 317px;">
+
+					<h2>Consectetur Adipiscing Elit</h2>
+					<h3>2020-2021</h3>
+					<hr style="width: 317px;">
+
+					<h2>Ut Enim ad Minim Veniam</h2>
+					<h3>2022-Present</h3>
+				</div> <!-- end of experience section -->
+			</div> <!-- end of about content -->
+	  </div> <!-- end of about -->
+
+		<!-- skills section -->
+		<div id="skills">
+			<h1 class="sectionTitles"><u>SKILLS</u></h1>
+			<br><br>
+
+			<div id="accordion">
+				<h3>Client-side Web Development</h3>
+				<div>I used HTML, CSS, JavaScript, and jQuery to build this website!</div>
+
+				<h3>Knowledge of Many Popular Programming Languages</h3>
+				<div>
+					<h3>Languages I've Studied in Depth</h3>
+					<p>Lorem, Ipsum, Dolor, Sit</p>
+					<hr style="width: 600px; margin: 15px 0;">
+					<h3>Languages I've Studied Briefly</h3>
+					<p>Ut, Enim, Minim, Veniam</p>
+				</div>
+
+				<h3>Understanding of Data Structures</h3>
+				<div>Consectetur Adipiscing Elit</div>
+
+				<h3>Game Development</h3>
+				<div>
+					Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br><br>
+
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+
+				<h3>UX Testing</h3>
+				<div>Nam dui erat, auctor a, dignissim.</div>
+			</div> <!-- end of accordion -->
+		</div> <!-- end of skills -->
+
+		<!-- projects section -->
+		<div id="projects">
+			<h1 class="sectionTitles"><u>PROJECTS</u></h1>
+			<br><br>
+
+			<div id="tabs">
+				<ul>
+					<li><a href="#python">Conversion Central</a></li>
+					<li><a href="#java">Euchre Without Friends</a></li>
+					<li><a href="#unreal">We Have a Problem</a></li>
+				</ul>
+				<div id="python" style="text-align: left;">
+					A unit conversion app written in Python.<br><br>
+
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</div>
+				<div id="java" style="text-align: left;">
+					A single player Euchre game written in Java.<br><br>
+
+					Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.<br><br>
+
+					Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.
+				</div>
+				<div id="unreal" style="text-align: left;">
+					A single player demonstration of multiple aspects of development in Unreal Engine 4.<br><br>
+
+					Nam dui erat, auctor a, dignissim quis, sollicitudin eu, felis. Pellentesque nisi urna, interdum eget, sagittis et, consequat vestibulum, lacus. Mauris porttitor ullamcorper augue.<br><br>
+
+					Phasellus mattis tincidunt nibh. Cras orci urna, blandit id, pretium vel, aliquet ornare, felis. Maecenas scelerisque sem non nisl. Fusce sed lorem in enim dictum bibendum.
+				</div>
+			</div> <!-- end of tabs -->
+		</div> <!-- end of projects -->
+
+		<!-- contact form section -->
+		<div id="contact">
+			<h1 class="sectionTitles"><u>CONTACT ME</u></h1>
+			<br><br>
+
+			<div id="contactForm">
+				<form id="form" style="text-align: left;">
+					<h1>Send me a message.</h1>
+					<br><br>
+
+					<input id="firstName" class="textInputs" type="text" name="first" required placeholder="First Name">
+					<input id="lastName" class="textInputs" type="text" name="last" required placeholder="Last Name">
+					<br><br>
+
+					<input id="phone" class="textInputs" type="tel" name="phone" required placeholder="(123) 456-7890">
+					<br><br>
+
+					<input id="email" type="email" name="mail" required placeholder="client@mail.com">
+					<br><br>
+
+					<input id="password" class="textInputs" type="password" name="pass" required placeholder="Choose Password">
+					<br><br>
+
+					<input id="primaryLanguage" type="text" name="primaryLanguage" placeholder="Primary Programming Language">
+					<br><br>
+
+					<fieldset style="width: 530px;">
+						<legend style="font-size: 20px;"> Skills interested in: </legend>
+						<div id="skillsChecks">
+							<input class="checkbox" id="web" type="checkbox" name="skill" value="Web Dev."><label for="web">Web Dev.</label>
+							<input class="checkbox" id="software" type="checkbox" name="skill" value="Software Dev."><label for="software">Software Dev.</label>
+							<input class="checkbox" id="game" type="checkbox" name="skill" value="Game Dev."><label for="game">Game Dev.</label>
+						</div>
+					</fieldset>
+					<br>
+
+					<textarea id="message" name="message" placeholder="Message" rows="8" cols="42" required></textarea>
+					<br><br>
+
+					<span style="font-size: 20px;">Sign up for my newsletter?</span>
+					<div id="newsletterRadios">
+						<input id="yes" type="radio" value="yes" name="newsletter" checked><label for="yes"> yes </label>
+						<input id="no" type="radio" value="no" name="newsletter"><label for="no"> no </label>
+					</div>
+					<br><br>
+
+					<hr/>
+
+					<h1>Schedule an interview.</h1><br><br>
+
+					<h3>Suggested Interview Date:</h3><br>
+					<div id="datepicker"></div>
+					<br>
+
+					<h3>Proposed Pay Range per Hour: <span id="amount"></span></h3><br>
+					<div id="slider"></div>
+					<br>
+
+					<hr/><br>
+
+					<input id="reset" type="reset">
+					<input id="submit" type="submit">
+					<br>
+				</form> <!-- end of form -->
+
+				<div id="output" style="text-align: left;"></div>
+
+			</div> <!-- end of contactForm -->
+		</div> <!-- end of contact section-->
+	</div> <!-- end of main -->
+
+	<div id="toTop"><button id="backToTop" type="button"></button></div>
+
+	<!--
+		<footer>
+			<a id="link" href="../final.html">Back to Final Course Work</a>
+		</footer>
+	-->
+
+	<!-- all scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> <!-- jQuery library -->
+  <script src="theme/jquery-ui.js"></script> <!-- jQuery UI library functionality -->
+	<script src="validation/dist/jquery.validate.js"></script> <!-- jQuery Validation Plugin -->
+	<script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/additional-methods.min.js"></script> <!-- used for phoneUS method in validation rules -->
+  <script src="finalRelease.js"></script> <!-- this page's js -->
+</body>
+
+<!-- Tested in Chrome, Safari, Firefox, and IE.
+
+In IE: Submit button says "Submit Query" instead of "Submit".
+			 "Skills interested in" fieldset legend also displays as black text.
+			 Form works completely fine though.
+			 Top navigation bar also does not stick to top of page.
+
+In Firefox: Submit button says "Submit Query" instead of "Submit". Form also works completely fine.
+-->
+
+</html>
