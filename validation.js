@@ -1,8 +1,8 @@
 /**************************************
- TITLE: finalRelease.js
+ TITLE: validation.js
  AUTHOR: Caleb Landis (CL)
  CREATE DATE: 4/27/2022
- PURPOSE: Final Release for CSCI N341 Final Project
+ PURPOSE: Final Release for CSCI N341 Final Project. Provides jQuery validation for contact form on index.html.
  LAST MODIFIED ON: 4/29/2022
  LAST MODIFIED BY: Caleb Landis (CL)
  Modification History:
